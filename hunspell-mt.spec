@@ -2,7 +2,7 @@ Name: hunspell-mt
 Summary: Maltese hunspell dictionaries
 %define upstreamid 20020708
 Version: 0.%{upstreamid}
-Release: 8%{?dist}
+Release: 9%{?dist}
 Group: Applications/Text
 Source: http://linux.org.mt/downloads/spellcheck-mt-0.3.tar.gz
 URL: http://linux.org.mt/node/62
@@ -38,6 +38,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20020708-9
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.20020708-8
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
